@@ -1,0 +1,11 @@
+﻿{
+  "name": "com.braty.monoconstruct",
+  "version": "1.0.0",
+  "displayName": "MonoConstruct",
+  "description": "Simple ctor system for MonoBehaviours.",
+  "unity": "2022.1",
+  "author": {
+    "name": "Bora Ataysen",
+    "url": "https://github.com/boraty14"
+  }
+}
