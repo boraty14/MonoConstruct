@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace MonoConstruct
 {
-    internal abstract class MonoConstructable : MonoBehaviour
+    public abstract class MonoConstructable : MonoBehaviour
     {
     }
     
