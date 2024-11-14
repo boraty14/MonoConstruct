@@ -2,7 +2,11 @@ using UnityEngine;
 
 namespace MonoConstruct
 {
-    public abstract class MonoConstructable<T1> : MonoBehaviour
+    internal abstract class MonoConstructable : MonoBehaviour
+    {
+    }
+    
+    public abstract class MonoConstructable<T1> : MonoConstructable
     {
         protected abstract void Init(T1 arg1);
 
@@ -24,7 +28,7 @@ namespace MonoConstruct
         }
     }
 
-    public abstract class MonoConstructable<T1, T2> : MonoBehaviour
+    public abstract class MonoConstructable<T1, T2> : MonoConstructable
     {
         protected abstract void Init(T1 arg1, T2 arg2);
 
@@ -46,7 +50,7 @@ namespace MonoConstruct
         }
     }
 
-    public abstract class MonoConstructable<T1, T2, T3> : MonoBehaviour
+    public abstract class MonoConstructable<T1, T2, T3> : MonoConstructable
     {
         protected abstract void Init(T1 arg1, T2 arg2, T3 arg3);
 
@@ -68,7 +72,7 @@ namespace MonoConstruct
         }
     }
 
-    public abstract class MonoConstructable<T1, T2, T3, T4> : MonoBehaviour
+    public abstract class MonoConstructable<T1, T2, T3, T4> : MonoConstructable
     {
         protected abstract void Init(T1 arg1, T2 arg2, T3 arg3, T4 arg4);
 
@@ -90,7 +94,7 @@ namespace MonoConstruct
         }
     }
 
-    public abstract class MonoConstructable<T1, T2, T3, T4, T5> : MonoBehaviour
+    public abstract class MonoConstructable<T1, T2, T3, T4, T5> : MonoConstructable
     {
         protected abstract void Init(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5);
 
